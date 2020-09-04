@@ -1,0 +1,18 @@
+{
+  "name": "tbf9_wio_terminal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@vivliostyle/viewer": "^2.1.1",
+    "http-server": "^0.12.3",
+    "@vivliostyle/cli": "^2.1.0"
+  },
+  "scripts": {
+    "viewer": "npx http-server node_modules/@vivliostyle/viewer/lib"
+  },
+  "author": "",
+  "license": "ISC"
+}
