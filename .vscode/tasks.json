@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build",
+			"detail": "vivliostyle build",
+			"options": {
+				"env": {
+					"PANDOC": "${env:HOME}/.cabal/bin/pandoc",
+					"PANDOC_CROSSREF": "${env:HOME}/.cabal/bin/pandoc-crossref"
+				}
+			}
+		}
+	]
+}

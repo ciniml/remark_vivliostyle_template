@@ -1,1 +1,4 @@
 node_modules
+*.pdf
+*.html
+.vivliostyle

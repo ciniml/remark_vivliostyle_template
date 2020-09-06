@@ -1,0 +1,3 @@
+[submodule "dewriteful"]
+	path = dewriteful
+	url = https://github.com/pentapod/dewriteful.git
